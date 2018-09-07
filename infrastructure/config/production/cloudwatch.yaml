@@ -1,0 +1,6 @@
+template_path: templates/production/cloudwatch.yaml
+parameters:
+  SNSTopicName: !stack_output production/sns::SNSTopicName
+  DashboardName: your-common-resources
+  CloudFormationTemplatesBucketName: !stack_output production/s3::CloudFormationTemplatesBucketName
+  CustomConfigurationsBucketName: !stack_output production/s3::CustomConfigurationsBucketName
