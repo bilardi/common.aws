@@ -1,4 +1,8 @@
 project_code: your-stack-name-prefix
 region: eu-west-1
-template_bucket_name: your-custom-cloudformation-templates
+#template_bucket_name: your-custom-cloudformation-templates
 template_key_prefix: your-project-name
+cloudformation_bucket_name: your-custom-cloudformation-templates
+custom_bucket_name: your-custom-configurations-bucket
+dashboard_name: your-common-resources
+email_address: your@email.net

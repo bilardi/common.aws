@@ -1,4 +1,4 @@
-template_path: templates/production/s3.yaml
+template_path: production/s3.yaml
 parameters:
-    CloudFormationTemplatesBucketName: your-custom-cloudformation-templates
-    CustomConfigurationsBucketName: your-custom-configurations
+    CloudFormationTemplatesBucketName: {{ cloudformation_bucket_name }}
+    CustomConfigurationsBucketName: {{ custom_bucket_name }}
