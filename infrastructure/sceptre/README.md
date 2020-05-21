@@ -11,4 +11,7 @@ sceptre validate production/s3
 sceptre launch production
 # and if it was the first time, uncomment the template_bucket_name line on config/config.yaml and then reload for saving the templates release on s3
 sceptre launch production
+# and if you want another vpc resource
+sceptre validate other/vpc
+sceptre launch other/vpc
 ```

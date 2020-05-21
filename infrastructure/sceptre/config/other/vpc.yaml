@@ -1,0 +1,7 @@
+template_path: production/vpc.yaml
+parameters:
+    CidrBlock: {{ cidr_block }}
+    EnableDnsSupport: 'true'
+    EnableDnsHostnames: 'true'
+    InstanceTenancy: default
+    VpcName: {{ project_code }}
